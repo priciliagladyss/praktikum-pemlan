@@ -17,17 +17,17 @@ public class pekerja extends manusia{
     public void setGaji(double gaji) {
         this.gaji = gaji;
     }
-    public void setTahunMasuk(LocalDate tahunMasuk) {
-        this.tahunMasuk = tahunMasuk;
-    }
-    public void setJumlahAnak(int jumlahAnak) {
-        this.jumlahAnak = jumlahAnak;
-    }
     public double getGaji() {
         return gaji;
     }
+    public void setTahunMasuk(LocalDate tahunMasuk) {
+        this.tahunMasuk = tahunMasuk;
+    }
     public LocalDate getTahunMasuk() {
         return tahunMasuk;
+    }
+    public void setJumlahAnak(int jumlahAnak) {
+        this.jumlahAnak = jumlahAnak;
     }
     public int getJumlahAnak() {
         return jumlahAnak;
