@@ -26,7 +26,7 @@ public class pekerja extends manusia{
     public LocalDate getTahunMasuk() {
         return tahunMasuk;
     }
-    public void setJumlahAnak(int jumlahAnak) {
+    public void setJumlahAnak(int jumlahAnak){
         this.jumlahAnak = jumlahAnak;
     }
     public int getJumlahAnak() {
